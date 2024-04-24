@@ -68,6 +68,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | make active.  By default there is only one group (the 'default' group).
 */
 $active_group = 'default';
+$query_builder = TRUE;
+
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
